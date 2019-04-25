@@ -15,11 +15,13 @@ Serviço de leitura de arquivo texto, higienização e persistência dos dados n
 
 # Instalação/Execução
 - Acesso de banco de dados, está configurado no arquivo conexaobanco.go e os dados default são os apontados abaixo:
+```
  * Usuário: postgres
  * Senha: teste
  * Host: localhost
  * Porta: 5432
  * Nome do Banco: teste-postgres
+ ```
 - O Script de criação das tabelas está no arquivo "script_criar_banco.sql"
 - Nesse repositório já existe uma aplicação compilada com o nome "importacao-arquivo-golang.exe".
 Basta executar essa aplicação com o arquivo "base_teste.txt" no mesmo diretório, que a aplicação já irá processar o mesmo. Após a conclusão do processo, a aplicação fechará a janela automaticamente.
